@@ -1,0 +1,61 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+
+  .maincontainer{
+
+        background-color: aqua;
+        display: flex;
+        height: 100vh;
+        flex-direction: column;
+}
+    .topcontainer{
+       display: flex;
+       flex: 0.1; 
+       background-color: red;
+    }
+
+    .bottomcontainer{
+        display: flex;
+        flex: 0.9;
+        background-color: yellow;
+    }
+
+.lefttopcontainer{
+    background-color: pink;
+    display: flex;
+    flex: 0.2;
+    align-items: center;
+}
+.righttopcontainer{
+    background-color:white;
+    display: flex;
+    flex: 0.8;
+    justify-content: flex-end;
+    padding-right: 20px;
+    align-items: center;
+    }
+    .ourlist{
+        list-style: none;
+    }
+    .ourlist li{display: inline;
+        padding-right: 20px;
+
+    }
+    .Applynowbutton{
+        padding: 10px 20px;
+    }
+}
+.leftbuttomcontainer{
+    background-color:green;
+    display: flex;
+    flex: 0.5;
+}
+
+.rightbuttomcontainer{
+    background-color: hotpink;
+    display: flex;
+    flex: 0.5;
+    
+}
