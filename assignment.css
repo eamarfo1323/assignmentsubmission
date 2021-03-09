@@ -5,7 +5,7 @@ padding: 0px;
 
   .maincontainer{
 
-        background-color: aqua;
+        background-color: rgb(158, 202, 231);
         display: flex;
         height: 100vh;
         flex-direction: column;
@@ -13,23 +13,26 @@ padding: 0px;
     .topcontainer{
        display: flex;
        flex: 0.1; 
-       background-color: red;
+       /* background-color: white; */
     }
 
     .bottomcontainer{
         display: flex;
         flex: 0.9;
-        background-color: yellow;
+        /* background-color:white; */
     }
 
 .lefttopcontainer{
-    background-color: pink;
+    /* background-color:white; */
     display: flex;
     flex: 0.2;
     align-items: center;
 }
+.Brand{
+padding-left: 20px;
+}
 .righttopcontainer{
-    background-color:white;
+    /* background-color:white; */
     display: flex;
     flex: 0.8;
     justify-content: flex-end;
@@ -40,22 +43,65 @@ padding: 0px;
         list-style: none;
     }
     .ourlist li{display: inline;
-        padding-right: 20px;
+        padding-right: 100px;
+        
+
 
     }
     .Applynowbutton{
         padding: 10px 20px;
     }
-}
+
 .leftbuttomcontainer{
-    background-color:green;
+    /* background-color: aqua; */
+    display: flex;
+    flex: 0.5;
+    flex-direction: column;
+}
+.leftbuttomcontainer1{
+    /* background-color: khaki; */
+    display: flex;
+    flex: 0.5;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30px;
+}
+.leftbuttomcontainer2{
+    /* background-color: lawngreen; */
     display: flex;
     flex: 0.5;
 }
 
+.startdrivingcredit{
+    /* margin-top: 50px; */
+}
+.getacarnowbutton{
+padding: 15px 32px;
+/* height: 50px; */
+/* margin-top: 200px; */
+/* margin-right: 100px; */
+
+
+    }
+    .lovem{
+        /* margin-top: 50px; */
+        /* margin: 100px; */
+    }
+
 .rightbuttomcontainer{
-    background-color: hotpink;
+    /* background-color: grey; */
     display: flex;
     flex: 0.5;
-    
+    padding-top: 50px;
+    padding-left: 400px;
+    /* margin-right: 300px; */
+}
+
+.rightbuttomcontainer img{
+    height: 250px;
+    width: 400px;
+    border-radius: 20px;
+    /* margin-left: 100px; */
+    margin-top: 80px;
+
 }
